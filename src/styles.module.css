@@ -1,0 +1,55 @@
+/* styles.module.css */
+body{
+  margin: 15%;
+  background-color:rgb(255, 208, 54);
+}
+/* AddTask component styles */
+.add-task-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-task-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.add-task-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.add-task-button:hover {
+  background-color: #0056b3;
+}
+
+/* Task component styles */
+.task-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-description {
+  flex: 1;
+  font-size: 16px;
+}
+
+.task-toggle {
+  margin-right: 10px;
+}
+
+.task-done {
+  text-decoration: line-through;
+  color: #888;
+}
